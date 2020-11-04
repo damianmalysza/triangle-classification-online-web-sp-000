@@ -8,7 +8,7 @@ class Triangle
   end
 
   def kind
-    if (@l1 + @l2 < @l3 || @l2 + @l3 < @l1 || @l1 + @l3 < @l2) || @len_array.all? {|l| l <=0}
+    if (@l1 + @l2 <= @l3 || @l2 + @l3 <= @l1 || @l1 + @l3 <= @l2) || @len_array.all? {|l| l <=0}
       raise TriangleError
     elsif @len_array.uniq.size <= 1
       :equilateral
