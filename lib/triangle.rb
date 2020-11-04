@@ -17,7 +17,6 @@ class Triangle
     elsif @len_array.uniq.size == 2
       :isosceles
     end
-
   end
 
   class TriangleError < StandardError
