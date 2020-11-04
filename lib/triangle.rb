@@ -13,7 +13,7 @@ class Triangle
     elsif @len_array.uniq.size <= 1
       :equilateral
     elsif @len_array.uniq.size == 3
-      :scalane
+      :scalene
     end
 
   end
