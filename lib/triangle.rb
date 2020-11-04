@@ -12,7 +12,6 @@ class Triangle
       raise TriangleError
     elsif @len_array.uniq.size <= 1
       :equilateral
-    elsif condition
 
 
     end
