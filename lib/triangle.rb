@@ -15,7 +15,7 @@ class Triangle
     elsif @len_array.uniq.size == 3
       :scalene
     elsif condition
-
+      :isosceles
     end
 
   end
