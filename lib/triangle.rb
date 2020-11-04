@@ -14,7 +14,7 @@ class Triangle
       :equilateral
     elsif @len_array.uniq.size == 3
       :scalene
-    elsif @len_array.uniq.size >=2
+    elsif @len_array.uniq.size == 2
       :isosceles
     end
 
